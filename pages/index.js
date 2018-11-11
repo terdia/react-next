@@ -24,6 +24,27 @@ const Index = (props) => {
             <ul>
                 {displayTvShows(props)}
             </ul>
+
+         <style jsx>{`
+            h1 {
+                font-family: "Arial"; 
+            }
+            ul {
+                list-style: none;
+            }
+            li {
+                margin: 0;
+            }
+            a {
+                text-decoration: none;
+                color: green;
+                font-family: "Arial";
+            }
+            a:hover {
+                opacity: 0.6;
+                color: green;
+            }        
+         `}</style>   
         </Layout>
     );
 }

@@ -1,5 +1,6 @@
 import { withRouter } from 'next/router';
 import Layout from '../components/Layout';
+import fetch from 'isomorphic-unfetch';
 
 const getShowDetails = ({show}) => (
     <div>
